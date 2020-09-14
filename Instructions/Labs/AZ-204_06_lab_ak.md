@@ -1,7 +1,8 @@
 ﻿---
 lab:
     title: 'ラボ: MSAL と .NET SDK を使用した Microsoft Graph の認証とクエリ'
-    module: 'モジュール 06: ユーザー認証と承認を実装する'
+    az204Module: 'モジュール 06: ユーザー認証と承認を実装する'
+    az020Module: 'モジュール 06: ユーザー認証と承認を実装する'
     type: 'Answer Key'
 ---
 
@@ -102,7 +103,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
 1.  **ファイル** メニューで、「**フォルダを開く**」 を選択します。
 
-1.  開いた **ファイル エクスプローラー** ウィンドウで、**Allfiles (F):\\Allfiles\\Labs\\07\\Starter\\GraphClient** を参照し、「**フォルダの選択**」 を選択します。
+1.  開いた **ファイル エクスプローラー** ウィンドウで、**Allfiles (F):\\Allfiles\\Labs\\06\\Starter\\GraphClient** を参照し、「**フォルダの選択**」 を選択します。
 
 1.  **Visual Studio Code** ウィンドウで、エクスプローラー ウィンドウのショートカットメニューを右クリックまたはアクティブにし、「**ターミナルで開く**」 を選択します。
 
@@ -361,7 +362,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     dotnet run
     ```
 
-    > **注**: ビルドエラーがある場合は、**Allfiles (F):\\Allfiles\\Labs\\07\\Solution\\GraphClient** フォルダーの **Program.cs** ファイルを確認します。
+    > **注**: ビルドエラーがある場合は、**Allfiles (F):\\Allfiles\\Labs\\06\\Solution\\GraphClient** フォルダーの **Program.cs** ファイルを確認します。
 
 1.  実行中のコンソール アプリケーションは、既定のブラウザーのインスタンスを自動的に開きます。
 
@@ -596,7 +597,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     dotnet run
     ```
 
-    > **注**: ビルドエラーがある場合は、**Allfiles (F):\\Allfiles\\Labs\\07\\Solution\\GraphClient** フォルダーの **Program.cs** ファイルを確認します。
+    > **注**: ビルドエラーがある場合は、**Allfiles (F):\\Allfiles\\Labs\\06\\Solution\\GraphClient** フォルダーの **Program.cs** ファイルを確認します。
 
 1.  現在実行中のコンソール アプリケーションからの出力でメッセージを確認します。メッセージにコードの値を記録します。この値は、このラボの後半で使用します。
 

@@ -1,7 +1,8 @@
 ﻿---
 lab:
     title: 'ラボ: Azure Storage SDK for .NET を使用して Azure Storage リソースとメタデータを取得する'
-    module: 'モジュール 03: BLOB ストレージを使用するソリューションを開発する'
+    az204Module: 'モジュール 03: BLOB ストレージを使用するソリューションを開発する'
+    az020Module: 'モジュール 03: BLOB ストレージを使用するソリューションを開発する'
     type: 'Answer Key'
 ---
 
@@ -455,7 +456,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     }
     ```
 
-1.  **EnumerateContainersAsync** メソッドに次のコードを入力して、**containerName** パラメーターを渡す **BlobServiceClient** クラスの **GetBlobContainerClient** メソッドを使用して、**BlobContainerClient** クラスの新しいインスタンスを取得します。
+1.  **EnumerateBlobsAsync** メソッドに次のコードを入力して、**containerName** パラメーターを渡す **BlobServiceClient** クラスの **GetBlobContainerClient** メソッドを使用して、**BlobContainerClient** クラスの新しいインスタンスを取得します。
 
     ```
     BlobContainerClient container = client.GetBlobContainerClient(containerName);
@@ -580,7 +581,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     {      
         BlobContainerClient container = client.GetBlobContainerClient(containerName);
         
-        await container.CreateIfNotExistsAsync();
+        await container.CreateIfNotExistsAsync(PublicAccessType.Blob);
         
         await Console.Out.WriteLineAsync($"New Container:\t{container.Name}");
         
@@ -779,18 +780,6 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     1.  シェルを使用して開始する新しいストレージ アカウントを作成するよう求めるダイアログ ボックスが表示されます。既定の設定を受け入れ、「**ストレージの作成**」 を選択します。 
 
     > **注**: Cloud Shell が初回のセットアップ手順を完了するのを待ってから、ラボを進めます。Cloud Shellの構成オプションが通知されない場合は、このコースのラボで既存のサブスクリプションを使用している可能性が高いと考えられます。新しいサブスクリプションを使用しているという前提で課題を記述します。
-
-1.  ポータルにある **Cloud Shell** コマンド プロンプトで次のコマンドを入力し、Enter キーを押してサブスクリプション内のすべてのリソース グループを一覧表示します。
-
-    ```
-    az group list
-    ```
-
-1.  コマンド プロンプトで次のコマンドを入力し、Enter を選択して、リソース グループを削除できるコマンドの一覧を取得します。
-
-    ```
-    az group delete --help
-    ```
 
 #### タスク 2: リソース グループの削除
 

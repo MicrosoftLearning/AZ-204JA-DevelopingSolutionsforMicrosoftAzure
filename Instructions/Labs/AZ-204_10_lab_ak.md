@@ -1,7 +1,8 @@
 ﻿---
 lab:
     title: 'ラボ: Event Grid イベントの公開とサブスクライブ'
-    module: 'モジュール 10: イベントベースのソリューションの開発'
+    az204Module: 'モジュール 10: イベントベースのソリューションの開発'
+    az020Module: 'モジュール 09: イベントベースのソリューションの開発'
     type: 'Answer Key'
 ---
     
@@ -68,7 +69,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     az --version
     ```
 
-#### タスク 3: Microsoft.EventGrid プロバイダーを登録する
+#### タスク 3: Microsoft.EventGrid プロバイダーの登録を表示する
 
 1.  ポータルの **Cloud Shell** コマンド プロンプトで、次の操作を実行します。
 
@@ -364,7 +365,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
 
     public class Program
     {
-        private const string topicEndpoint = <topic-endpoint>";
+        private const string topicEndpoint = "<topic-endpoint>";
         private const string topicKey = "<topic-key>";
         
         public static async Task Main(string[] args)
@@ -567,18 +568,6 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
     1.  シェルを使用して開始する新しいストレージ アカウントを作成するよう求めるダイアログ ボックスが表示されます。既定の設定を受け入れ、「**ストレージの作成**」 を選択します。 
 
     > **注**: Cloud Shell が初回のセットアップ手順を完了するのを待ってから、ラボを進めます。Cloud Shell の構成オプションが表示されない場合は、このコースの課題で既存のサブスクリプションを使用している可能性が高いと考えられます。新しいサブスクリプションを使用しているという前提で課題を記述します。
-
-1.  **Cloud Shell** コマンド プロンプトで次のコマンドを入力し、Enter キーを選択してサブスクリプション内のすべてのリソース グループを一覧表示します。
-
-    ```
-    az group list
-    ```
-
-1.  次のコマンドを入力し、Enter キーを押して、リソース グループを削除する可能性のあるコマンドの一覧を表示します。
-
-    ```
-    az group delete --help
-    ```
 
 #### タスク 2: リソース グループを削除する
 
