@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: Logic Apps を使用したビジネス プロセスの自動化'
     az204Module: 'モジュール 09: App Service ロジック アプリの開発'
