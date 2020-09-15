@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: Azure のサービスを使用して多層ソリューションを作成する'
     az204Module: 'モジュール 08: API Management の実装'
