@@ -1,4 +1,4 @@
-﻿---
+---
 title: オンライン ホステッド インストラクション
 permalink: index.html
 layout: home
