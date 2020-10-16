@@ -415,7 +415,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
             EventType = "Employees.Registration.New",
             EventTime = DateTime.Now,
             Subject = $"New Employee: {firstPerson.FullName}",
-            Data = firstPerson,
+            Data = firstPerson.ToString(),
             DataVersion = "1.0.0"
         };
         ```
@@ -445,7 +445,7 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
             EventType = "Employees.Registration.New",
             EventTime = DateTime.Now,
             Subject = $"New Employee: {secondPerson.FullName}",
-            Data = secondPerson,
+            Data = secondPerson.ToString(),
             DataVersion = "1.0.0"
         };
         ```
