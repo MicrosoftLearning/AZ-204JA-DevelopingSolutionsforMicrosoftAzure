@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: Azure Functions を使用してタスク処理ロジックを実装する'
     az204Module: 'モジュール 02: Azure Functions の実装'

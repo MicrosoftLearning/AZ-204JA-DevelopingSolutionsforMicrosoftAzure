@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: サービスとしての Azure Platform での Web アプリケーションの構築'
     az204Module: 'モジュール 01: Azure App Service Web アプリの作成'

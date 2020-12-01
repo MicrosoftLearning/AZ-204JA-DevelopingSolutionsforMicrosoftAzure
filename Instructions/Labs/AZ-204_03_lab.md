@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: Azure Storage SDK for .NET を使用して Azure Storage リソースとメタデータを取得する'
     az204Module: 'モジュール 03: BLOB ストレージを使用するソリューションを開発する'

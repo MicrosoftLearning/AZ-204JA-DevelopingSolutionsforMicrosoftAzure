@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: MSAL と .NET SDK を使用した Microsoft Graph の認証とクエリ'
     az204Module: 'モジュール 06: ユーザー認証と承認を実装する'
